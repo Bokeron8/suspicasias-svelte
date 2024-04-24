@@ -23,11 +23,12 @@
       <NavLi href="/contacto">Contacto</NavLi>
     </NavUl>
   </Navbar>
-  <div class="h-100" imgClass="object-contain h-full w-fit rounded-sm">
-    <Carousel {images} let:Controls>
+  <div class="">
+    <Carousel class="sm:h-screen xl:h-18" {images} let:Controls imgClass="h-full w-fit rounded-sm">
       <Controls />
     </Carousel>
   </div>  
+  <h1>texto por aca</h1>
 </main>
 
 
